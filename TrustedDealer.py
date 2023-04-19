@@ -47,3 +47,12 @@ for i, point in enumerate(points):
         f.write(f"{point[0]},{point[1]}")
     print(f"Saved point {i+1} to file {filename}")
 
+
+# Order of operations: run TrustedDealer.py, then run FetchTeleportLSS.py
+# FetchTeleportLSS.py needs to iterate over all running instances of TeleportLSS.js
+# If MPC sig succeeds next step is to JVSS private key shares, and then use JVSS to add new parties
+# To detect new parties some work on P2P is needed??
+# Finally, we can merge LSS MPC into TeleportMPC if we choose or do vaulting
+# If Vaulting, we need to figure out JVSS creation of new public key private key pair
+# If vaulting, serialization of merged sig shares. Also crypto primitives need to be stronger.
+   
