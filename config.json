@@ -1,0 +1,6 @@
+{
+    "ecdsaPythonPath": "./ecdsa-python",
+    "ecdsaScriptPath": "./ecdsa-python/ellipticcurve/ecdsa.py",
+    "runEcdsaScriptPath": "./ecdsa-python/ellipticcurve/run_ecdsa.py"
+  }
+  
