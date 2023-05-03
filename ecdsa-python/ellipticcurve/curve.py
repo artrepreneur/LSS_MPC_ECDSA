@@ -3,8 +3,8 @@
 #
 # y^2 = x^3 + A*x + B (mod P)
 #
-from .math import Math
-from .point import Point
+from ellipticcurve.ec_math import Math
+from ellipticcurve.point import Point
 
 
 class CurveFp:
