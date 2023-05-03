@@ -1,11 +1,11 @@
-from .utils.compatibility import *
-from .utils.der import parse, encodeConstructed, encodePrimitive, DerFieldType
-from .utils.binary import hexFromByteString, byteStringFromHex, base64FromByteString, byteStringFromBase64
+from ellipticcurve.utils.compatibility import *
+from ellipticcurve.utils.der import parse, encodeConstructed, encodePrimitive, DerFieldType
+from ellipticcurve.utils.binary import hexFromByteString, byteStringFromHex, base64FromByteString, byteStringFromBase64
 
 
 class Signature:
 
-    def __init__(self, r, s, recoveryId=Non:
+    def __init__(self, r, s, recoveryId=None):
         self.r = r
         self.s = s
         self.recoveryId = recoveryId
